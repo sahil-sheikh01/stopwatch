@@ -35,7 +35,7 @@ function stopwatch() {
         ms = "0" + milliseconds;
     }
 
-    time.innerHTML = h + ":" + m + ":" + s + ":" + ms;
+    time.innerHTML = h + ":" + m + ":" + s + "." + ms;
 }
 
 function start() {
@@ -53,5 +53,5 @@ function reset() {
     clearInterval(timer);
     timer = null;
     [hours, minutes, seconds, milliseconds] = [0, 0, 0, 0];
-    time.innerHTML = "00:00:00:00";
+    time.innerHTML = "00:00:00.00";
 }
