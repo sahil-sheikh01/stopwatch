@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+    color: #fff;
+}
+.stopwatch h1{
+    font-size: 64px;
+    font-weight: 600;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttons img{
+    width: 50px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.buttons img:nth-child(2){
+    width: 80px;
+}
